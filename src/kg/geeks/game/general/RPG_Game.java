@@ -20,8 +20,9 @@ public class RPG_Game {
         TrickyBastard bastard1= new TrickyBastard("Liar", 250 , 20);
         Antman antman = new Antman("Michael", 270, 15);
         Hacker hacker = new Hacker("Alpha" , 300, 10 , 15);
+        Ludoman ludoman = new Ludoman("Sina", 260, 5);
 
-        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, bastard1, antman, hacker};
+        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, bastard1, antman, hacker, ludoman};
         printStatistics(boss, heroes);
 
         while (!isGameOver(boss, heroes)) {

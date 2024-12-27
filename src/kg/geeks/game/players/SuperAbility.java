@@ -7,5 +7,6 @@ public enum SuperAbility {
     HEAL,
     TRICK,
     SIZE_CHANGE,
-    HACKING;
+    HACKING,
+    GAMBLING;
 }
